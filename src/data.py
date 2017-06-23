@@ -10,4 +10,4 @@ def import_data(data_name):
         nodes = list()
         for index,name,x,y in data.values:
             nodes.append(Node(index=index, name=name, xy=[x,y]))
-        return NodesGroup(nodes)
+        return NodesGroup(nodes=nodes)
