@@ -178,6 +178,7 @@ class CostMatrix:
             data of the sparse matrix of the costs.
 
     """
+
     def __init__(self, group_of_nodes):
         # Initialisation
         row = list()
